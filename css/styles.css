@@ -6,8 +6,14 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
 }
-
+header img{
+    width: 100px;
+    height: 100px;
+}
 /* ---------------------------------------------------- */
+
+/* decided to wrap everything besides the footer inside the main tag
+so i could set the scooter as a background image of the main content only */
 main {
     background-image: url("../images/bg-image/scooter.svg");
     background-repeat: no-repeat;
@@ -62,6 +68,8 @@ fieldset {
     border: none;
 }
 
+/* edited every input type text that i made in the entire html to have 
+a consistent look */
 input[type=text] {
     width: 100%;
     box-sizing: border-box;
@@ -72,6 +80,9 @@ input[type=text] {
     border-radius: 10px;
 }
 
+/* editing the first button, the one that is on the main form
+i decided to go with the same input i was using for the text but with a button
+instead of the one i have on the footer which is a button tag instead of an input tag */
 input[type=button] {
     border-radius: 11px;
     border: none;
@@ -104,6 +115,7 @@ fieldset p a {
 
 /* ---------------------------------------------------- */
 footer {
+    /* Padding to give some space on the sides, top and bottom of the footer to make it look better */
     padding: 20px 25px 20px 25px;
     background-color: #fffd8c;
 }
@@ -132,7 +144,8 @@ footer .first-area {
     grid-template-rows: repeat(4, 1fr);
     grid-column-gap: 5px;
 }
-
+/* Used nth-childs to call each specific item inside item with the
+class block to properly organize them in the grid template i created */
 footer .block:nth-child(1) {
     grid-column: span 3;
 }
@@ -155,6 +168,8 @@ footer .second-area{
 
 /* ------------------------------------- end of mobile ------------------------------------- */
 
+
+/* tablet breakpoint */
 @media(min-width:680px){
     main{
         width: 650px;
@@ -197,6 +212,7 @@ footer .second-area{
 
 }
 
+/* Desktop break-point */
 @media(min-width:1380px){
     main{
         width: 90%;
@@ -236,3 +252,5 @@ footer .second-area{
         margin-left: 2rem;
     }
 }
+
+/* code made in group with @Mo_Farghali and @Jeff_Robinson  */

@@ -201,11 +201,14 @@ footer .second-area{
     main{
         width: 90%;
     }
+    .text-area h1 {
+        font-size: 4rem;
+    }
     .container{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(1, 1fr);
-        grid-column-gap: 25rem;
+        grid-column-gap: 20rem;
     }
     footer{
         margin-top: 2rem;

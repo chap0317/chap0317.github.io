@@ -1,11 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dash</title>
+    <link rel="icon" href="images/favicon.ico" type='image/x-icon'>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-    <h1>Hello world</h1>
+    <main class="main-container">
+        <header>
+            <img src="images/logo/logo.png" alt="logo" width="100px" height="100px">
+        </header>
+        <div class="container">
+            <section class="text-area">
+                <h1>Want to be your own boss?</h1>
+                <h3>Start today and make up to $30/hr driving your own vehicle with Dash!</h3>
+            </section>
+            <!-- section divition -->
+            <section class="form-area">
+                <form>
+                    <div class="form-text">
+                        <h2>
+                            Apply now
+                        </h2>
+                        <p>Enter your info bellow</p>
+                    </div>
+                    <fieldset>
+                        <input type="text" id="fname" name="firstname" placeholder="First Name">
+                    </fieldset>
+
+                    <fieldset>
+                        <input type="text" id="lname" name="lastname" placeholder="Last Name">
+                    </fieldset>
+
+                    <fieldset>
+                        <input type="text" id="pnumber" name="phonenumber" placeholder="Phone number">
+                    </fieldset>
+
+                    <fieldset>
+                        <input type="text" id="email" name="email" placeholder="Email">
+                    </fieldset>
+
+                    <fieldset>
+                        <label for="accept">
+                            <input type="checkbox" id="accept" name="accept" value="yes" checked>
+                            I agree to Dash terms.
+                        </label>
+                    </fieldset>
+
+                    <fieldset>
+                        <input type="button" class="form-button" value="DRIVE WITH US">
+                    </fieldset>
+
+                    <fieldset>
+                        <p>
+                            Already applied? <a href="#">Check your application status here</a>
+                        </p>
+                    </fieldset>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <section class="first-area">
+                <h4 class="block">See how much you can earn with Dash.</h4>
+                <p class="block">how many hours do you want to drive with us this week?</p>
+                <input type="text" id="hours" class="block" name="hours" placeholder="Hours">
+                <input type="text" id="city" class="block" name="city" placeholder="City">
+                <button class="footer-btn block">CALCULATE</button>
+            </section>
+            <sectiom class="second-area">
+                <img src="images/icons/instagram.svg" alt="instagram">
+                <img src="images/icons/twitter.svg" alt="twitter">
+                <img src="images/icons/facebook.svg" alt="facebook">
+                <img src="images/icons/linkedin.svg" alt="linkedin">
+            </sectiom>
+        </div>
+    </footer>
+
+
 </body>
+
 </html>

@@ -1,0 +1,905 @@
+/* --------- import of google fonts for the assignment, used same font as the one 
+provided on the xd file --------- */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,600;0,700;1,600&display=swap');
+
+* {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* --------- menu area -------- */
+
+header {
+    background-color: #3C3B3A;
+    text-align: center;
+}
+
+header img {
+    height: auto;
+    width: 88px;
+}
+
+nav ul li {
+    display: block;
+    padding-bottom: 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover,
+nav a:active,
+nav a.active,
+nav ul li:active {
+    font-weight: bold;
+}
+
+/* --------- end of menu area -------- */
+
+/* --------- body area --------- */
+
+.container1 {
+    margin: auto;
+    width: 300px;
+}
+
+/* --------- end of body area --------- */
+
+/* --------- First block --------- */
+
+.first-block h1 {
+    color: #3C3B3A;
+    font-size: 2.5rem;
+}
+
+.first-block p {
+    color: #3C3B3A;
+    font-size: 1.3rem;
+    line-height: 35px;
+    margin-bottom: 1rem;
+}
+
+.activities {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-row-gap: 1.5rem;
+    grid-column-gap: 1.5rem; */
+    grid-gap: 1.5rem;
+    color: #26A682;
+}
+
+.activities img {
+    width: 38.7px;
+    height: auto;
+}
+
+.start {
+    background-color: #26A682;
+    border-radius: 40px;
+    border: none;
+    box-shadow: 0px 10px 10px #124A3A80;
+    color: #F2F2F2;
+    font-size: 2rem;
+    font-weight: bold;
+    height: 50px;
+    margin-top: 1.9rem;
+    width: 300px;
+}
+
+.discover {
+    margin-top: 2.5rem;
+    width: 300px;
+    height: auto;
+    margin-bottom: 1.5rem;
+}
+
+.contactimg {
+    width: 300px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.construction-img {
+    width: 300px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.img-txt {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.abt-img {
+    width: 100%;
+}
+
+.img-txt h2 {
+    position: absolute;
+    font-size: 3rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* --------- End of first block --------- */
+
+/* --------- Second block --------- */
+
+.container2 img {
+    width: 100%;
+    height: auto;
+}
+
+.clip-image {
+    clip-path: inset(0 0 15% 0);
+}
+
+.second-block {
+    margin: auto;
+    width: 300px;
+}
+
+.second-block h2 {
+    color: #3C3B3A;
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.second-block h3 {
+    color: #26A682;
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.second-block p {
+    color: #3C3B3A;
+    font-size: 1rem;
+    line-height: 35px;
+    padding-bottom: 1rem;
+}
+
+.learn-btn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.learn {
+    background-color: #26A682;
+    border-radius: 40px;
+    border: none;
+    box-shadow: 0px 10px 10px #124A3A80;
+    color: #F2F2F2;
+    font-size: 1.25rem;
+    font-weight: bold;
+    height: 45px;
+    margin-top: 1.9rem;
+    width: 146px;
+    margin-bottom: 2.1rem;
+}
+
+form {
+    background-color: #26A682;
+    border-radius: 25px;
+    color: #F2F2F2;
+    box-shadow: 10px 10px 7px #14403326;
+}
+
+fieldset {
+    border: none;
+}
+
+.form-text h2 {
+    padding: 1rem 1rem 0;
+    color: #F2F2F2;
+    font-style: normal;
+    font-weight: bold;
+}
+
+input[type=text],
+input[type=email],
+input[type=number] {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    border: none;
+    height: 40px;
+    padding: 5%;
+    border-radius: 72px;
+    margin-top: 5px;
+}
+
+fieldset textarea {
+    width: 100%;
+    height: 100px;
+    resize: none;
+    border: none;
+    border-radius: 10px;
+    padding: 5%;
+    margin-top: 5px;
+}
+
+input[type=button] {
+    border-radius: 40px;
+    border: none;
+    color: #F2F2F2;
+    background-color: #3C3B3A;
+    width: 100%;
+    height: 50px;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.ct-bg {
+    background-color: #F2F2F2;
+    padding-top: 1.5rem;
+}
+
+/* --------- End second block --------- */
+
+/* --------- Third block --------- */
+.container3.indx {
+    background-color: #3C3B3A;
+    padding-top: 30px;
+}
+
+.container3 .simon {
+    border-radius: 90px;
+    border: 5px solid #F2F2F2;
+    display: block;
+    height: auto;
+    margin: auto;
+    width: 175px;
+}
+
+.third-block {
+    margin: auto;
+    width: 300px;
+}
+
+/* .rounded-img h2{
+    color: #F2F2F2;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 28px;
+    text-align: center;
+} */
+
+.third-block h2 {
+    color: #F2F2F2;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 28px;
+    text-align: center;
+}
+
+.third-block p {
+    color: #F2F2F2;
+    font-size: 1rem;
+    line-height: 35px;
+    padding-bottom: 50px;
+}
+
+.third-block.ctc h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #3C3B3A;
+    text-align: left;
+}
+
+.third-block.ctc h3 {
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: #3C3B3A;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.third-block.ctc p {
+    color: #3C3B3A;
+    font-size: 1rem;
+    line-height: 35px;
+    margin-bottom: 40px;
+    padding-bottom: 0;
+}
+
+.container3.ct-bg {
+    background-color: #FFFFFF;
+    padding-top: 1.5rem;
+}
+
+.img-side {
+    display: none;
+}
+
+
+.abt-txt h2 {
+    color: #3C3B3A;
+    text-align: left;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.abt-txt h3 {
+    color: #26A682;
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.abt-txt p {
+    color: #3C3B3A;
+    font-size: 1rem;
+    line-height: 35px;
+    padding-bottom: 1rem;
+}
+
+.container-3 .third-block {
+    margin: auto;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.container-3 .third-block article:nth-child(1) {
+    padding-top: 1.5rem;
+    margin: auto;
+    width: 300px;
+}
+
+.container-3 .third-block article:nth-child(2) {
+    background-color: #F2F2F2;
+    padding-top: 1.5rem;
+}
+
+.container-3 .third-block .grey-zone {
+    margin: auto;
+    width: 300px;
+}
+
+
+/* --------- End third block --------- */
+.subscribe {
+    background-color: #3C3B3A;
+    color: #F2F2F2;
+    text-align: center;
+}
+
+.subscribe h3 {
+    font-weight: normal;
+    font-size: 1.1rem;
+    padding-top: 1.5rem;
+}
+
+.subscribe-btn {
+    background-color: #26A682;
+    border-radius: 40px;
+    border: none;
+    color: #F2F2F2;
+    font-size: 1.25rem;
+    font-weight: bold;
+    height: 45px;
+    margin-top: 1.5rem;
+    width: 146px;
+    margin-bottom: 1.5rem;
+}
+
+/* --------- Fourth block --------- */
+.container4 img {
+    width: 100%;
+    clip-path: inset(0 0 15% 0);
+}
+
+.fourth-block {
+    margin: auto;
+    width: 300px;
+}
+
+.fourth-block h2 {
+    color: #3C3B3A;
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.fourth-block h3 {
+    color: #26A682;
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.fourth-block p {
+    color: #3C3B3A;
+    font-size: 1rem;
+    line-height: 35px;
+    margin-bottom: 1rem;
+}
+
+.fourth-block .abt-txt h2 {
+    color: #3C3B3A;
+    text-align: left;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.container-4 .fourth-block {
+    margin: auto;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.container-4 .fourth-block article:nth-child(1) {
+    padding-top: 1.5rem;
+    margin: auto;
+    width: 300px;
+}
+
+.container-4 .fourth-block article:nth-child(2) {
+    background-color: #F2F2F2;
+    padding-top: 1.5rem;
+}
+
+.container-4 .fourth-block .grey-zone {
+    margin: auto;
+    width: 300px;
+}
+
+
+/* --------- End fourth block --------- */
+
+/* --------- Fifth block --------- */
+
+.fifth-block {
+    margin: auto;
+    width: 300px;
+    text-align: center;
+}
+
+.fifth-block img {
+    width: 100%;
+}
+
+.fifth-block img:nth-child(2),
+.fifth-block img:nth-child(3),
+.fifth-block img:nth-child(4) {
+    width: 50%;
+}
+
+
+/* --------- End fifth block --------- */
+
+/* --------- Footer --------- */
+footer {
+    background-color: #3C3B3A;
+}
+
+footer p {
+    padding-top: 2rem;
+    color: #F2F2F2;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.socialmedia {
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.socialmedia img {
+    margin-left: 0.8rem;
+}
+
+/* --------- End footer --------- */
+
+/* --------- Responsive size Tablet --------- */
+
+@media(min-width:680px) {
+
+    /* --------- navigation bar --------- */
+
+    header {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        align-content: center;
+    }
+
+    header img {
+        grid-column: 1 / span 2;
+        padding-left: 1rem;
+        grid-row: 1;
+    }
+
+    nav {
+        grid-column: 3;
+        grid-row: 1;
+    }
+
+    nav ul {
+        display: flex;
+        width: 100%;
+        padding-top: 1.5rem;
+    }
+
+    nav ul li {
+        flex-grow: 1;
+        text-align: center;
+    }
+
+    /* --------- End navigation bar --------- */
+
+
+    /* --------- First section --------- */
+    .container1 {
+        margin: auto;
+        width: 600px;
+    }
+
+    .first-block h1 {
+        font-size: 4.5rem;
+    }
+
+    .activities {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 1.5rem;
+        color: #26A682;
+    }
+
+    .discover {
+        width: 350px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .first-block,
+    .second-block,
+    .third-block,
+    .fourth-block {
+        width: 600px;
+        text-align: center;
+    }
+
+    .first-block h1,
+    .first-block p {
+        text-align: left;
+    }
+
+    .contactimg {
+        width: 450px;
+    }
+
+    .construction-img {
+        width: 570px;
+    }
+
+    /* --------- End first section --------- */
+
+    /* --------- Second section --------- */
+
+    .second-block h2,
+    .second-block h3,
+    .second-block p {
+        text-align: left;
+    }
+
+    .second-block .learn,
+    .fourth-block .learn {
+        width: 230px;
+    }
+
+    .form-text h2 {
+        font-size: 4.5rem;
+    }
+
+    .second-block.ctc {
+        text-align: left;
+    }
+
+    label {
+        font-size: 1.5rem;
+    }
+
+    input[type=text],
+    input[type=email],
+    input[type=number] {
+        margin-top: 1.2rem;
+    }
+
+    input[type=button] {
+        width: 210px;
+    }
+
+    .second-block.ctc form fieldset:nth-child(6) {
+        text-align: right;
+    }
+
+    /* --------- End second section --------- */
+
+    /* --------- third section --------- */
+
+    .container3.indx .third-block {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .container3.indx .third-block p {
+        text-align: left;
+    }
+
+
+    .third-block.ctc h2 {
+        font-size: 4.5rem;
+    }
+
+    .third-block.ctc h3 {
+        font-size: 2.5rem;
+    }
+
+    .third-block.ctc p {
+        text-align: left;
+    }
+
+
+    .img-side {
+        display: block;
+    }
+
+    .container-3 .third-block article:nth-child(1) {
+        padding-top: 1.5rem;
+        margin: auto;
+        width: 600px;
+    }
+
+    .container-3 .third-block article .white-zone {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .container-3 .third-block img {
+        width: auto;
+        height: 390px;
+    }
+
+    .container-3 .third-block .abt-txt h2,
+    .container-3 .third-block .abt-txt h3,
+    .container-3 .third-block .abt-txt p {
+        text-align: left;
+    }
+
+    .container-3 .third-block article .grey-zone {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .container-3 .third-block article:nth-child(2) .grey-zone {
+        width: 600px;
+    }
+
+    .container-3 .third-block article:nth-child(2) .grey-zone .img-side {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .container-3 .third-block article:nth-child(2) .grey-zone .abt-txt {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    /* --------- End third section --------- */
+
+    .subscribe {
+        text-align: right;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 1rem;
+    }
+
+    .subscribe h3 {
+        grid-column: 2;
+    }
+
+    .subscribe button {
+        grid-column: 3;
+    }
+
+
+    /* --------- fourth section --------- */
+
+    .container-4 .fourth-block {
+        text-align: left;
+    }
+
+    .container-4 .fourth-block .img-side {
+        text-align: center;
+    }
+
+    .container-4 .fourth-block article:nth-child(1) {
+        padding-top: 1.5rem;
+        margin: auto;
+        width: 600px;
+    }
+
+    .container-4 .fourth-block article .white-zone {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .container-4 .fourth-block img {
+        width: auto;
+        height: 390px;
+    }
+
+    .container-4 .fourth-block article .grey-zone {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .container-4 .fourth-block article:nth-child(2) .grey-zone {
+        width: 600px;
+    }
+
+    .container-4 .fourth-block article:nth-child(2) .grey-zone .img-side {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .container-4 .third-block article:nth-child(2) .grey-zone .abt-txt {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    /* --------- End fourth section --------- */
+
+    /* --------- fifth section --------- */
+
+    .fifth-block {
+        margin: auto;
+        width: 600px;
+        text-align: center;
+    }
+
+    .fifth-block h1 {
+        font-size: 3.4rem;
+        font-weight: bold;
+    }
+
+    .fifth-block img {
+        width: 70%;
+    }
+
+    .fifth-block img:nth-child(2),
+    .fifth-block img:nth-child(3),
+    .fifth-block img:nth-child(4) {
+        width: 50%;
+    }
+
+    /* --------- End fifth section --------- */
+
+}
+
+/* --------- End responsive size Tablet --------- */
+
+/* --------- Responsive size desktop --------- */
+
+@media(min-width:1380px) {
+
+    /* --------- first section --------- */
+    .container1{
+        width: 80%;
+        
+    }
+    .first-block{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-column-gap: 3rem;
+    }
+
+    /* --------- End first section --------- */
+
+    /* --------- second section --------- */
+
+    .container2.ct-bg .second-block{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-column-gap: 1.5rem;
+        padding-top: 14rem;
+        padding-bottom: 14rem;
+        width: 80%;
+    }
+
+    /* --------- End second section --------- */
+
+
+    /* --------- third section --------- */
+
+    .container-3 .third-block article:nth-child(1),
+    .container-3 .third-block article:nth-child(2) .grey-zone {
+        width: 80%;
+    }
+
+
+    .container-3 .third-block img {
+        width: 550px;
+        height: auto;
+    }
+
+    .container-3 .third-block article:nth-child(2) {
+        padding-bottom: 2rem;
+    }
+
+    .container-4 .fourth-block article:nth-child(1) {
+        padding-top: 1.5rem;
+        margin: auto;
+        width: 600px;
+    }
+
+    /* --------- End third section --------- */
+
+  
+
+    /* --------- fourth section --------- */
+
+    .container-4 .fourth-block article:nth-child(1) {
+        padding-top: 2rem;
+    }
+
+    .container-4 .fourth-block article:nth-child(1),
+    .container-4 .fourth-block article:nth-child(2) .grey-zone {
+        width: 80%;
+    }
+
+
+    .container-4 .fourth-block img {
+        width: 550px;
+        height: auto;
+    }
+
+    /* --------- End fourth section --------- */
+
+    /* --------- fifth section --------- */
+
+    .container5{
+        margin-top: 8rem;
+        margin-bottom: 8rem;
+    }
+
+    .fifth-block {
+        width: 80%;
+    }
+
+    .logos{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+
+    .logos img{
+        align-self: center;
+        justify-self: center;
+    }
+
+
+}

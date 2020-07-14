@@ -985,6 +985,9 @@ footer p {
 
     /* --------- fourth section --------- */
 
+    .container4.indx .asd{
+        padding-top: 7rem;
+    }
 
     .container-4 .fourth-block article:nth-child(1),
     .container-4 .fourth-block article:nth-child(2) .grey-zone {

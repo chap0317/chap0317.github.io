@@ -1,5 +1,10 @@
 /* --------- import of google fonts for the assignment, used same font as the one 
 provided on the xd file --------- */
+
+/* ---------- The code was made in company with @Jeff_Robinson -------- */
+
+/* Css and html's have been checked and passed the validators. */
+
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,600;0,700;1,600&display=swap');
 
 * {
@@ -79,6 +84,8 @@ nav ul li:active {
     height: auto;
 }
 
+/* Setting style for the button */
+
 .start {
     background-color: #26A682;
     border-radius: 40px;
@@ -139,6 +146,16 @@ nav ul li:active {
     width: 100%;
     height: auto;
 }
+
+.container2 iframe{
+    width: 100%;
+    height: 450px;
+}
+
+/* Used clip path to cut a bit of the image, later discovered that 
+the space i cut was going to stay as empty space, decided to not use it 
+more but decided to leave it here since I think i managed to cut it without
+many compromises */
 
 .clip-image {
     clip-path: inset(0 0 15% 0);
@@ -558,6 +575,10 @@ footer p {
         width: 600px;
     }
 
+    .clip-image {
+        clip-path: inset(25% 0 25% 0);
+    }   
+
     .first-block h1 {
         font-size: 4.5rem;
     }
@@ -668,8 +689,12 @@ footer p {
         display: block;
     }
 
+    .container-3 .third-block.abt article{
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
     .container-3 .third-block article:nth-child(1) {
-        padding-top: 1.5rem;
         margin: auto;
         width: 600px;
     }
@@ -697,6 +722,7 @@ footer p {
 
     .container-3 .third-block article:nth-child(2) .grey-zone {
         width: 600px;
+        padding-bottom: 4rem;
     }
 
     .container-3 .third-block article:nth-child(2) .grey-zone .img-side {
@@ -733,6 +759,14 @@ footer p {
         text-align: left;
     }
 
+    .container4.indx .asd{
+        clip-path: inset(0 0 40% 0);
+    }
+
+    .container4.indx .fourth-block{
+        text-align: left;
+    }
+
     .container-4 .fourth-block .img-side {
         text-align: center;
     }
@@ -746,6 +780,7 @@ footer p {
     .container-4 .fourth-block article .white-zone {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+
     }
 
     .container-4 .fourth-block img {
@@ -809,14 +844,67 @@ footer p {
 
     /* --------- first section --------- */
     .container1{
-        width: 80%;
-        
+        width: 90%;
+        margin: 5rem auto;
     }
+
+    .container1.ct-ctc{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .container1.ct-ctc .first-block{
+        display: block;
+    }
+
     .first-block{
+        width: 100%;
         display: grid;
         grid-template-columns: repeat(2,1fr);
         grid-column-gap: 3rem;
     }
+
+    .second-block.ctc form{
+        width: 90%;
+        padding: 2rem;
+    }
+
+    .first-block .discover{
+        width: 100%;
+    }
+
+    .first-block h1{
+        font-size: 3rem;
+    }
+
+    .first-block img{
+        justify-self: center;
+        align-self: center;
+    }
+
+    .container2.indx{
+        background-color: #F2F2F2;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .container2.indx img{
+        width: 80%;
+        justify-self: center;
+        align-self: center;
+    }
+
+    .container2.indx .second-block{
+        padding-top: 5rem;
+        width: 80%;
+        justify-self: center;
+        align-self: center;
+    }
+
+    .clip-image {
+        clip-path: inset(15% 0 15% 0);
+    }
+
 
     /* --------- End first section --------- */
 
@@ -848,13 +936,47 @@ footer p {
     }
 
     .container-3 .third-block article:nth-child(2) {
-        padding-bottom: 2rem;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
     }
 
-    .container-4 .fourth-block article:nth-child(1) {
-        padding-top: 1.5rem;
+    .container-3 .fourth-block article:nth-child(1) {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
         margin: auto;
         width: 600px;
+    }
+
+    .container3.indx .third-block{
+        width: 100%;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+    .container3.indx .third-block {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .rounded-img{
+        justify-self: center;
+        align-self: center;
+        width: 80%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+
+    .container3.indx .third-block p {
+        width: 80%;
+        text-align: left;
+        justify-self: center;
+        align-self: center;
+    }
+
+    .container2.ct-ctc{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
     }
 
     /* --------- End third section --------- */
@@ -863,19 +985,44 @@ footer p {
 
     /* --------- fourth section --------- */
 
-    .container-4 .fourth-block article:nth-child(1) {
-        padding-top: 2rem;
-    }
 
     .container-4 .fourth-block article:nth-child(1),
     .container-4 .fourth-block article:nth-child(2) .grey-zone {
         width: 80%;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
     }
+
+
 
 
     .container-4 .fourth-block img {
         width: 550px;
         height: auto;
+    }
+
+
+    .container4.indx{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .container4.indx img{
+        width: 80%;
+        justify-self: center;
+        align-self: center;
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .container4.indx .fourth-block{
+        text-align: left;
+        padding-top: 5rem;
+        width: 80%;
+        justify-self: center;
+        align-self: center;
+        grid-column: 1;
+        grid-row: 1;
     }
 
     /* --------- End fourth section --------- */
@@ -900,6 +1047,24 @@ footer p {
         align-self: center;
         justify-self: center;
     }
-
-
 }
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #26A682;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 90px;
+  }
+  
+  #myBtn:hover {
+    background-color: #3C3B3A;
+  }

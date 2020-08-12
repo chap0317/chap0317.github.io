@@ -23,7 +23,7 @@ body {
 }
 
 .navbar-toggler {
-    background-color: #6c757d;
+    background-color: #303030;
 }
 
 .nav-scroller {
@@ -65,6 +65,32 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+.bg-dark{
+    background-color: #303030 !important;
+}
+
+button[type=submit]{
+    width: 150px;
+}
+
+.footer {
+    margin-top: 5rem;
+    padding: 1rem;
+    color: whitesmoke;
+    text-align: center;
+    background-color: #303030;
+}
+.contact-footer{
+    margin-top: 5rem;
+    padding: 1rem;
+    color: whitesmoke;
+    text-align: center;
+    background-color: #262626;
+}
+.footer p, .contact-footer p{
+    margin: 0;
+}
+
 @media (max-width: 991.98px) {
     .offcanvas-collapse {
         position: fixed;
@@ -98,6 +124,4 @@ body {
     .carousel-item {
         height: 93vh;
     }
-
-
 }

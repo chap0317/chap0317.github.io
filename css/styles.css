@@ -8,9 +8,7 @@ body {
     padding-top: 56px;
 }
 
-/* .carousel-inner {
-    max-height: 700px;
-} */
+/* Carousel settings for the size on the mobile screen */
 
 .carousel-item {
     height: 94vh;
@@ -22,6 +20,7 @@ body {
     background-size: cover;
 }
 
+/* Color for the hamburger menu for the responsive navbar */
 .navbar-toggler {
     background-color: #303030;
 }
@@ -90,6 +89,8 @@ button[type=submit]{
 .footer p, .contact-footer p{
     margin: 0;
 }
+
+/* screen options for the navbar animation slide and carousel scren size for the web screen*/
 
 @media (max-width: 991.98px) {
     .offcanvas-collapse {

@@ -1,0 +1,14 @@
+.container .row img {
+    width: 16rem;
+    height: auto;
+}
+
+.mrgn {
+    margin-top: 7rem;
+}
+
+@media(min-width: 62rem) {
+    .mrgn {
+        margin-top: 10rem;
+    }
+}

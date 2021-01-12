@@ -11,16 +11,16 @@ footer {
     background-color: #f8f9fa;
 }
 
+/* alignment for the image so it can be centered */
 .vertical-alignment {
     min-height: 100%;
-    /* Fallback for browsers do NOT support vh unit */
     min-height: 100vh;
-    /* These two lines are counted as one :-)       */
 
     display: flex;
     align-items: center;
 }
 
+/* responsive min width for size of cards and footer options */
 @media(min-width: 62rem) {
 
     .mrgn {
@@ -52,6 +52,7 @@ footer {
     }
 }
 
+/* responsive size to display the background image for the sign up page */
 @media(min-width: 75rem) {
     main {
         background-image: url('../img/bg-signup.png');
